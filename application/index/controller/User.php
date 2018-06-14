@@ -91,7 +91,7 @@ class User extends Base
 
         $this->assign('list', $list);
 
-        return $this->fetch('admin_List');
+        return $this->fetch('admin_list');
     }
 
     //设置是否启用
