@@ -18,15 +18,15 @@ class Base extends Controller
 
     protected function isLogin()
     {
-        if (empty(USER_ID)) {
-            $this->error('用户未登录，无权访问', url('user/login'));
-        }
+//        if (empty(USER_ID)) {
+//            $this->error('用户未登录，无权访问', url('user/login'));
+//        }
     }
 
     protected function alreadyLogin()
     {
-        if (!empty(USER_ID)) {
-            $this->error('用户已经登录，请勿重复登录', url('index/index'));
-        }
+//        if (!empty(USER_ID)) {
+//            $this->error('用户已经登录，请勿重复登录', url('index/index'));
+//        }
     }
 }
