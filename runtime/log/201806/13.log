@@ -1,0 +1,2893 @@
+---------------------------------------------------------------
+[ 2018-06-13T08:20:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：2.815425s][吞吐率：0.36req/s] [内存消耗：1,801.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:20:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.090327s][吞吐率：11.07req/s] [内存消耗：1,801.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:21:48+08:00 ] 127.0.0.1 127.0.0.1 GET /login
+[ info ] www.edu.com/login [运行时间：1.052222s][吞吐率：0.95req/s] [内存消耗：1,517.88kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:21:54+08:00 ] 127.0.0.1 127.0.0.1 GET /login/login
+[ info ] www.edu.com/login/login [运行时间：0.093806s][吞吐率：10.66req/s] [内存消耗：1,517.98kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'login',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:22:11+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login
+[ info ] www.edu.com/user/login [运行时间：0.079581s][吞吐率：12.57req/s] [内存消耗：1,518.00kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/user/login
+[ info ] www.edu.com/index.php/user/login [运行时间：0.098015s][吞吐率：10.20req/s] [内存消耗：1,517.97kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/user/login
+[ info ] www.edu.com/index.php/user/login [运行时间：0.101020s][吞吐率：9.90req/s] [内存消耗：1,518.41kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:04+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.492620s][吞吐率：2.03req/s] [内存消耗：1,855.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ info ] www.edu.com/index/user/login.html [运行时间：0.392494s][吞吐率：2.55req/s] [内存消耗：1,881.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/static/h-ui/css/H-ui.login.css
+[ info ] www.edu.com/static/static/h-ui/css/H-ui.login.css [运行时间：0.107882s][吞吐率：9.27req/s] [内存消耗：1,518.37kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'static',
+    2 => 'h-ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'H-ui.login.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:09+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.edu.com/captcha.html [运行时间：0.650813s][吞吐率：1.54req/s] [内存消耗：1,498.84kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\www\edu\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ info ] www.edu.com/index/user/checklogin.html [运行时间：0.082367s][吞吐率：12.14req/s] [内存消耗：1,825.11kb] [文件加载：50]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'nvwif',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:22+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha?id=1528849402
+[ info ] www.edu.com/captcha?id=1528849402 [运行时间：0.087036s][吞吐率：11.49req/s] [内存消耗：1,498.87kb] [文件加载：41]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\www\edu\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ info ] www.edu.com/index/user/checklogin.html [运行时间：1.150536s][吞吐率：0.87req/s] [内存消耗：2,958.36kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'vxil3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052073s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047287s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001655s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 1 [ RunTime:0.277828s ]
+---------------------------------------------------------------
+[ 2018-06-13T08:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] www.edu.com/index/index/index.html [运行时间：0.379090s][吞吐率：2.64req/s] [内存消耗：1,852.84kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/favicon.ico
+[ info ] www.edu.com/index/index/favicon.ico [运行时间：0.075437s][吞吐率：13.26req/s] [内存消耗：1,809.54kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:24:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ info ] www.edu.com/index/user/adminlist.html [运行时间：0.535588s][吞吐率：1.87req/s] [内存消耗：2,935.89kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminList[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_List.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'count',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002904s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005856s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.098611s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.000777s ]
+---------------------------------------------------------------
+[ 2018-06-13T08:24:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/favicon.ico
+[ info ] www.edu.com/index/user/favicon.ico [运行时间：0.101105s][吞吐率：9.89req/s] [内存消耗：1,840.52kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:59:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ info ] www.edu.com/index/user/adminlist.html [运行时间：0.316708s][吞吐率：3.16req/s] [内存消耗：2,935.90kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminList[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_List.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'count',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006257s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008230s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001574s ]
+---------------------------------------------------------------
+[ 2018-06-13T08:59:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/adminadd.html
+[ info ] www.edu.com/index/user/adminadd.html [运行时间：0.255594s][吞吐率：3.91req/s] [内存消耗：1,831.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminAdd[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:59:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminadd.html
+[ info ] www.edu.com/index/user/adminadd.html [运行时间：0.260591s][吞吐率：3.84req/s] [内存消耗：1,883.56kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminAdd[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T08:59:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/checkUserName?name=
+[ info ] www.edu.com/index/user/checkUserName?name= [运行时间：0.169834s][吞吐率：5.89req/s] [内存消耗：1,768.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkUserName',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/user/adminadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkUserName[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T09:08:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/checkUserName?name=
+[ info ] www.edu.com/index/user/checkUserName?name= [运行时间：0.177310s][吞吐率：5.64req/s] [内存消耗：1,768.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkUserName',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/user/adminadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkUserName[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T09:15:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminedit/id/2.html
+[ info ] www.edu.com/index/user/adminedit/id/2.html [运行时间：0.642480s][吞吐率：1.56req/s] [内存消耗：2,918.84kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminEdit[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'user_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005589s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008248s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 2 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.046975s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:15:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminedit/id/2.html?id=1
+[ info ] www.edu.com/index/user/adminedit/id/2.html?id=1 [运行时间：0.849867s][吞吐率：1.18req/s] [内存消耗：2,885.69kb] [文件加载：60]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminEdit[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'user_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003808s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006166s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 2 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000972s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:22:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradelist.html
+[ info ] www.edu.com/index/grade/gradelist.html [运行时间：1.153476s][吞吐率：0.87req/s] [内存消耗：3,077.73kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeList[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_list.html [ array (
+  0 => 'gradeList',
+  1 => 'count',
+  2 => 'title',
+  3 => 'keywords',
+  4 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003695s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.053559s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `grade` WHERE `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.219703s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 2 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 3 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 4 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 5 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 6 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 7 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000918s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:22:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/favicon.ico
+[ info ] www.edu.com/index/grade/favicon.ico [运行时间：0.114885s][吞吐率：8.70req/s] [内存消耗：1,827.36kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T09:26:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradelist.html
+[ info ] www.edu.com/index/grade/gradelist.html [运行时间：0.285424s][吞吐率：3.50req/s] [内存消耗：3,077.86kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeList[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_list.html [ array (
+  0 => 'gradeList',
+  1 => 'count',
+  2 => 'title',
+  3 => 'keywords',
+  4 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003838s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006963s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `grade` WHERE `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.005164s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 2 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 3 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 4 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 5 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 6 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 7 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000943s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:26:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.144361s][吞吐率：6.93req/s] [内存消耗：1,870.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T09:36:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeedit/id/1.html
+[ info ] www.edu.com/index/grade/gradeedit/id/1.html [运行时间：0.349165s][吞吐率：2.86req/s] [内存消耗：3,035.59kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeEdit[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'grade_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004166s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.005556s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 1 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.005647s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:36:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeedit/id/1.html
+[ info ] www.edu.com/index/grade/gradeedit/id/1.html [运行时间：0.503961s][吞吐率：1.98req/s] [内存消耗：3,001.77kb] [文件加载：64]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeEdit[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'grade_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002141s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.004861s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 1 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.009295s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/teacher/teacherlist.html
+[ info ] www.edu.com/index/teacher/teacherlist.html [运行时间：0.548377s][吞吐率：1.82req/s] [内存消耗：3,077.73kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teacher',
+    2 => 'teacherlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Teacher->teacherList[ D:\www\edu\application\index\controller\Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\teacher\teacher_list.html [ array (
+  0 => 'teacherList',
+  1 => 'count',
+  2 => 'title',
+  3 => 'keywords',
+  4 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002528s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.006196s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE `teacher`.`delete_time` IS NULL [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `teacher` WHERE `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006649s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 5 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 2 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 1 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 3 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 4 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 0 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE (  `id` = 7 ) AND `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000842s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:36:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/teacher/favicon.ico
+[ info ] www.edu.com/index/teacher/favicon.ico [运行时间：0.108645s][吞吐率：9.20req/s] [内存消耗：1,828.39kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teacher',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T09:36:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/teacher/teacheredit/id/1.html
+[ info ] www.edu.com/index/teacher/teacheredit/id/1.html [运行时间：0.563517s][吞吐率：1.77req/s] [内存消耗：2,937.99kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teacher',
+    2 => 'teacheredit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Teacher->teacherEdit[ D:\www\edu\application\index\controller\Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\teacher\teacher_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'teacher_info',
+  4 => 'gradeList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004596s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.005249s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006635s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:36:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/teacher/teacheredit/id/1.html
+[ info ] www.edu.com/index/teacher/teacheredit/id/1.html [运行时间：0.237616s][吞吐率：4.21req/s] [内存消耗：2,971.38kb] [文件加载：62]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teacher',
+    2 => 'teacheredit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Teacher->teacherEdit[ D:\www\edu\application\index\controller\Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\teacher\teacher_edit.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'teacher_info',
+  4 => 'gradeList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008495s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.007362s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.004654s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2018-06-13T09:37:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/teacher/teacheradd.html
+[ info ] www.edu.com/index/teacher/teacheradd.html [运行时间：0.418233s][吞吐率：2.39req/s] [内存消耗：2,924.58kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teacher',
+    2 => 'teacheradd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Teacher->teacherAdd[ D:\www\edu\application\index\controller\Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\teacher\teacher_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'gradeList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002367s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007390s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.001550s ]
+---------------------------------------------------------------
+[ 2018-06-13T10:28:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradelist.html
+[ info ] www.edu.com/index/grade/gradelist.html [运行时间：0.261119s][吞吐率：3.83req/s] [内存消耗：3,077.93kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeList[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_list.html [ array (
+  0 => 'gradeList',
+  1 => 'count',
+  2 => 'title',
+  3 => 'keywords',
+  4 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012934s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.008967s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `grade` WHERE `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.005807s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 2 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 3 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 4 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 5 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 6 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 7 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2018-06-13T10:28:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.265095s][吞吐率：3.77req/s] [内存消耗：1,870.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:28:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.107606s][吞吐率：9.29req/s] [内存消耗：1,756.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'length' => '2',
+  'price' => '',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:28:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.089051s][吞吐率：11.23req/s] [内存消耗：1,756.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'length' => '',
+  'price' => '1222',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:28:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.081772s][吞吐率：12.23req/s] [内存消耗：1,756.89kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我',
+  'length' => '',
+  'price' => '1222',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:33:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.206807s][吞吐率：4.84req/s] [内存消耗：1,870.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|2; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:34:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.106242s][吞吐率：9.41req/s] [内存消耗：1,756.99kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dsf',
+  'length' => 'dsfa',
+  'price' => 'dsf',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:34:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.124845s][吞吐率：8.01req/s] [内存消耗：1,756.98kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dsf',
+  'length' => 'dsfa',
+  'price' => '1111',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:35:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index/grade/doadd.html
+[ info ] www.edu.com/index/grade/doadd.html [运行时间：0.120725s][吞吐率：8.28req/s] [内存消耗：1,756.98kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'doadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/grade/gradeadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dsf',
+  'length' => '1',
+  'price' => '111111111',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->doAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:40:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.208453s][吞吐率：4.80req/s] [内存消耗：1,870.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T10:42:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.221147s][吞吐率：4.52req/s] [内存消耗：1,870.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T14:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradelist.html
+[ info ] www.edu.com/index/grade/gradelist.html [运行时间：0.620961s][吞吐率：1.61req/s] [内存消耗：3,078.02kb] [文件加载：65]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/teacher/teacherlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeList[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_list.html [ array (
+  0 => 'gradeList',
+  1 => 'count',
+  2 => 'title',
+  3 => 'keywords',
+  4 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006307s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.009049s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE `grade`.`delete_time` IS NULL [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `grade` WHERE `grade`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teacher` [ RunTime:0.009007s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 1 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 2 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002467s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 3 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 4 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002144s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 5 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001706s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 6 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SELECT * FROM `teacher` WHERE (  `grade_id` = 7 ) AND `teacher`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001279s ]
+---------------------------------------------------------------
+[ 2018-06-13T14:29:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/grade/gradeadd.html
+[ info ] www.edu.com/index/grade/gradeadd.html [运行时间：0.137293s][吞吐率：7.28req/s] [内存消耗：1,870.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'grade',
+    2 => 'gradeadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/grade/gradelist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Grade->gradeAdd[ D:\www\edu\application\index\controller\Grade.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\grade\grade_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:43:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.152016s][吞吐率：6.58req/s] [内存消耗：1,852.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:43:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.104356s][吞吐率：9.58req/s] [内存消耗：1,852.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.147455s][吞吐率：6.78req/s] [内存消耗：1,852.61kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/test
+[ info ] www.edu.com/index.php/index/index/test [运行时间：0.159622s][吞吐率：6.26req/s] [内存消耗：1,809.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/login
+[ info ] www.edu.com/index.php/index/user/login [运行时间：0.109144s][吞吐率：9.16req/s] [内存消耗：1,888.16kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/index.html
+[ info ] www.edu.com/index.php/index/index/index.html [运行时间：0.076457s][吞吐率：13.08req/s] [内存消耗：1,853.16kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index.php/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/favicon.ico
+[ info ] www.edu.com/index.php/index/index/favicon.ico [运行时间：0.081775s][吞吐率：12.23req/s] [内存消耗：1,809.62kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/adminlist.html
+[ info ] www.edu.com/index.php/index/user/adminlist.html [运行时间：0.142781s][吞吐率：7.00req/s] [内存消耗：2,936.04kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index.php/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminList[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_List.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'count',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008846s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001170s ]
+---------------------------------------------------------------
+[ 2018-06-13T15:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/favicon.ico
+[ info ] www.edu.com/index.php/index/user/favicon.ico [运行时间：0.079671s][吞吐率：12.55req/s] [内存消耗：1,840.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index.php/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/adminadd.html
+[ info ] www.edu.com/index.php/index/user/adminadd.html [运行时间：0.074024s][吞吐率：13.51req/s] [内存消耗：1,883.58kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index.php/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminAdd[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:57:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/index/user/adminadd.html
+[ info ] www.edu.com/index.php/index/user/adminadd.html [运行时间：0.156773s][吞吐率：6.38req/s] [内存消耗：1,831.94kb] [文件加载：51]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index.php/index/user/adminlist.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminAdd[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_add.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T15:58:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/checkUserName?name=asw
+[ info ] www.edu.com/index.php/index/user/checkUserName?name=asw [运行时间：0.102173s][吞吐率：9.79req/s] [内存消耗：2,820.80kb] [文件加载：58]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkUserName',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index.php/index/user/adminadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'asw',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkUserName[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001512s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004074s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'asw' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.002196s ]
+---------------------------------------------------------------
+[ 2018-06-13T15:58:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/user/checkUserName?name=df
+[ info ] www.edu.com/index.php/index/user/checkUserName?name=df [运行时间：0.075892s][吞吐率：13.18req/s] [内存消耗：1,769.12kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkUserName',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'referer' => 'http://www.edu.com/index.php/index/user/adminadd.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'df',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkUserName[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:01:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.206036s][吞吐率：4.85req/s] [内存消耗：1,852.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:01:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.129244s][吞吐率：7.74req/s] [内存消耗：1,852.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=768932864; Hm_lvt_080836300300be57b7f34f4b3e97d911=1509180755,1511464846; PHPSESSID=2qoml6vdrcvef7ntpgt724vlk3; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.edu.com/ [运行时间：0.269791s][吞吐率：3.71req/s] [内存消耗：1,855.16kb] [文件加载：54]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:02:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ info ] www.edu.com/index/user/login.html [运行时间：0.326557s][吞吐率：3.06req/s] [内存消耗：2,027.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:02:05+08:00 ] 127.0.0.1 127.0.0.1 GET /static/static/h-ui/css/H-ui.login.css
+[ info ] www.edu.com/static/static/h-ui/css/H-ui.login.css [运行时间：0.190378s][吞吐率：5.25req/s] [内存消耗：1,518.02kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'static',
+    2 => 'h-ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'H-ui.login.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:02:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ info ] www.edu.com/index/user/checklogin.html [运行时间：0.181805s][吞吐率：5.50req/s] [内存消耗：1,767.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ info ] www.edu.com/index/user/login.html [运行时间：0.319794s][吞吐率：3.13req/s] [内存消耗：1,880.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->login[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /static/static/h-ui/css/H-ui.login.css
+[ info ] www.edu.com/static/static/h-ui/css/H-ui.login.css [运行时间：0.264752s][吞吐率：3.78req/s] [内存消耗：1,518.02kb] [文件加载：45]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'static',
+    2 => 'h-ui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'H-ui.login.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:04:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ info ] www.edu.com/index/user/checklogin.html [运行时间：0.305950s][吞吐率：3.27req/s] [内存消耗：2,901.09kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.edu.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006533s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.013210s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001543s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 1 [ RunTime:0.086405s ]
+---------------------------------------------------------------
+[ 2018-06-13T16:04:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] www.edu.com/index/index/index.html [运行时间：0.197721s][吞吐率：5.06req/s] [内存消耗：1,852.77kb] [文件加载：53]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\edu\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T16:04:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ info ] www.edu.com/index/user/adminlist.html [运行时间：0.284201s][吞吐率：3.52req/s] [内存消耗：2,935.20kb] [文件加载：61]
+[ info ] [ LANG ] D:\www\edu\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.edu.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.edu.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ampnjpssp5e5mtovvo7bhgo0g7; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->adminList[ D:\www\edu\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\edu\public/../application/index\view\user\admin_List.html [ array (
+  0 => 'title',
+  1 => 'keywords',
+  2 => 'dsc',
+  3 => 'count',
+  4 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004032s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005175s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001448s ]
