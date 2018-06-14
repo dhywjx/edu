@@ -73,7 +73,7 @@
 		$("#login").on('click',function (event) {
 			$.ajax({
 				type:"POST",//提交方式
-				url:"{:url('checkLogin')}",//设置提交数据处理的脚本文件地址
+				url:"{:url('index/user/checkLogin')}",//设置提交数据处理的脚本文件地址
 				data:$("form").serialize(),//将当期表单的数据序列号以后再提交
 				dataType:'json',//设置提交数据类型 只有返回标志位为1，才进行处理
 				success: function(data) {
