@@ -1,0 +1,112 @@
+---------------------------------------------------------------
+[ 2017-11-30T12:17:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011665s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006466s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001648s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 1 [ RunTime:0.001491s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008808s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001161s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008242s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001076s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminedit/id/7.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007905s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.092767s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 7 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001643s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminedit/id/7.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005618s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003069s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 7 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001117s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/edituser.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007614s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002346s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='wangjingxu',`password`='14e1b600b1fd579f47433b88e8d85291',`status`=0,`email`='wjx@qq.com',`role`=0,`delete_time`=NULL,`is_delete`=1,`update_time`=1512015557  WHERE  `id` = 7 [ RunTime:0.001310s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008310s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029761s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001073s ]
+---------------------------------------------------------------
+[ 2017-11-30T12:19:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/setstatus.html?id=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010324s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002869s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 7 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `status`=1,`delete_time`=NULL,`is_delete`=1,`update_time`=1512015568  WHERE  `id` = 7 [ RunTime:0.001468s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:33:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007426s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006135s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 1 [ RunTime:0.052350s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:33:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007275s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007673s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001167s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/checkUserName?name=wangjingxu
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008471s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005918s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'wangjingxu' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001483s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/checkUserEmail?email=wangjingxu%40qq.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006371s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004625s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `email` = 'wangjingxu@qq.com' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001016s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/adduser.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008191s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002107s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `password` , `status` , `email` , `role` , `delete_time` , `is_delete` , `login_time` , `login_count` , `create_time` , `update_time`) VALUES ('wangjingxu' , 'e10adc3949ba59abbe56e057f20f883e' , 1 , 'wangjingxu@qq.com' , 0 , NULL , 1 , NULL , 0 , 1512023656 , 1512023656) [ RunTime:0.051464s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008122s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.002988s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001091s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008379s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008281s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1512023667,`delete_time`=NULL,`is_delete`=1,`update_time`=1512023667  WHERE  `id` = 1 [ RunTime:0.052658s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007314s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006368s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'wangjingxu'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001409s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 2 [ RunTime:0.053558s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008149s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'wangjingxu' ) AND `user`.`delete_time` IS NULL [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:34:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007501s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006051s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1512023699,`delete_time`=NULL,`is_delete`=1,`update_time`=1512023699  WHERE  `id` = 2 [ RunTime:0.052831s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:35:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008575s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003142s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=login_count+1  WHERE  `id` = 1 [ RunTime:0.041802s ]
+---------------------------------------------------------------
+[ 2017-11-30T14:35:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/adminlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007433s ] mysql:host=127.0.0.1;dbname=edu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006277s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` IS NULL [ RunTime:0.001487s ]
